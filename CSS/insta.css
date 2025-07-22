@@ -1,6 +1,7 @@
-body{
+body {
     background-color: #796b6b;
 }
+
 .container {
     margin: 0% auto;
     /* border: 2px solid white; */
@@ -28,14 +29,16 @@ select {
 
 .logo {
     text-align: center;
-    margin-top: 20%;   
+    margin-top: 20%;
 }
+
 .logo img {
     transition: all 1s ease;
     width: 70px;
     height: auto;
 }
-img:hover{
+
+img:hover {
     transform: scale(1.2);
 }
 
@@ -43,9 +46,11 @@ img:hover{
     margin-top: 18%;
 
 }
-.invi{
+
+.invi {
     visibility: hidden;
 }
+
 .user input,
 .pass input {
     transition: all 1s ease;
@@ -70,6 +75,7 @@ img:hover{
     cursor: pointer;
     border: none;
 }
+
 .butt:hover {
     background-color: rgb(72, 92, 290);
 }
@@ -89,7 +95,8 @@ button {
     padding: 10px;
     text-align: center;
 }
- button:hover {
+
+button:hover {
     color: white;
 }
 
@@ -108,6 +115,7 @@ button {
     border-radius: 33px;
     border-color: rgb(68, 68, 220);
 }
+
 .Acco:hover {
     background-color: rgb(68, 68, 220);
     color: white;
